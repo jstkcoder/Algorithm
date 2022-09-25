@@ -14,9 +14,12 @@ public class Debuging {
         int A[] = new int[100001];
         int S[] = new int[100001];
         for (int i =  1; i < testCase; i++) {
+            // 랜덤 함수로 A배열에 값을 넣음
             A[i] = (int) (Math.random() * Integer.MAX_VALUE);
+            // S배열의 값
             S[i] = S[i - 1] + A[i];
         }
+
 
         for (int t = 1; t < testCase; t++) {
             int query = sc.nextInt();
