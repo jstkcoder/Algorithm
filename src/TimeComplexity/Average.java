@@ -16,6 +16,7 @@ public class Average {
         long sum = 0;
         long max = 0;
         for (int i = 0; i < Number; i++) {
+            if (A[i] > max) max = A[i];
             sum = sum + A[i];
         }
         // 한 과목과 관련된 수식을 총합한 후 관련된 수식으로 변환에 로직이 간단해짐
