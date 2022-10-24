@@ -7,26 +7,26 @@ public class Recursion {
 // 나머지 작업을 자기 자신에게 호출하는 하여 결과를 완성하는 것을 말합니다. 주로 완전탐색에서 자주 사용되는 방법입니다.
 
     // 단순한 중첩 문제 풀이
-   private static void result2( String[] people ) {
-        int count = 0;
-        for( int firstIndex = 0; firstIndex < people.length; firstIndex++ ) {
-            for( int secondIndex = 0; secondIndex < people.length; secondIndex++ ) {
-
-                if( firstIndex == secondIndex ) continue;
-
-                for( int thirdIndex = 0; thirdIndex < people.length; thirdIndex++ ) {
-                    if( thirdIndex == secondIndex || thirdIndex == firstIndex ) continue;
-
-                    String first = people[firstIndex];
-                    String second= people[secondIndex];
-                    String third = people[thirdIndex];
-                    count++;
-                    System.out.println("( "+first +" " + second + " " + third +" )");
-                }
-            }
-        }
-        System.out.println("총 경우의 수 : " + count);
-    }
+//   private static void result2( String[] people ) {
+//        int count = 0;
+//        for( int firstIndex = 0; firstIndex < people.length; firstIndex++ ) {
+//            for( int secondIndex = 0; secondIndex < people.length; secondIndex++ ) {
+//
+//                if( firstIndex == secondIndex ) continue;
+//
+//                for( int thirdIndex = 0; thirdIndex < people.length; thirdIndex++ ) {
+//                    if( thirdIndex == secondIndex || thirdIndex == firstIndex ) continue;
+//
+//                    String first = people[firstIndex];
+//                    String second= people[secondIndex];
+//                    String third = people[thirdIndex];
+//                    count++;
+//                    System.out.println("( "+first +" " + second + " " + third +" )");
+//                }
+//            }
+//        }
+//        System.out.println("총 경우의 수 : " + count);
+//    }
     // 재귀 문제 풀이
     private static void result( String[] people ) {
         int r = 3;
