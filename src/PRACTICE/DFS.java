@@ -17,6 +17,7 @@ public class DFS {
             dfs(L + 1);
             ch[L] = 0;
             dfs(L + 1);
+
         }
     }
 

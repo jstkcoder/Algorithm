@@ -10,6 +10,7 @@ public class Main {
     static ArrayList<ArrayList<Edge>> graph;
     static int[] dis;
 
+
     public void solution(int v) {
         PriorityQueue<Edge> pQ = new PriorityQueue<>();
         pQ.offer(new Edge(v, 0));
