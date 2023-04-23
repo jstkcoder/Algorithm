@@ -26,7 +26,6 @@ public class Main {
             }
         }
     }
-
     public static void main(String[] args) {
         Main T = new Main();
         Scanner stdIn = new Scanner(System.in);
