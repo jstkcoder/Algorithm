@@ -9,8 +9,6 @@ public class Main {
     static int n, m;
     static ArrayList<ArrayList<Edge>> graph;
     static int[] dis;
-
-
     public void solution(int v) {
         PriorityQueue<Edge> pQ = new PriorityQueue<>();
         pQ.offer(new Edge(v, 0));
