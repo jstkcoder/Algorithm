@@ -18,5 +18,17 @@ public class ScannerEx2 {
 
         String h = in.next();            // String 형 입력 및 리턴 (공백을 기준으로 한 단어를 읽음)
         String i = in.nextLine();        // String 형 입력 및 리턴 (개행을 기준으로 한 줄을 읽음)
+
+
+        //출력문
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(h);
+        System.out.println(i);
     }
 }
