@@ -22,6 +22,7 @@ public class SumOfIntervals {
             int j = Integer.parseInt(stringTokenizer.nextToken());
 
             System.out.println(S[j] - S[i - 1]);
+            System.out.println(S[i -1] - S[j]);
         }
     }
 }
