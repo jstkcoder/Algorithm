@@ -1,6 +1,6 @@
 package PRACTICE;
 
-public class BinarySearch2 {
+public class BinarySearchTwo {
     // 이진 검색(Binary Search)을 사용하여 대상 값의 인덱스 또는 삽입 위치의 인덱스를 반환하는 메서드
     public static int searchInsert(int[] nums, int target) {
         int left = 0; // 배열의 왼쪽 인덱스
