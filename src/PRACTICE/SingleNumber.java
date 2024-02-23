@@ -11,6 +11,8 @@ public class SingleNumber {
             // 한 번 나타난 요소와 두 번 나타난 요소를 업데이트
             seenOnce = ~seenTwice & (seenOnce ^ num);
             seenTwice = ~seenOnce & (seenTwice ^ num);
+            System.out.println(seenOnce);
+            System.out.println(seenTwice);
         }
 
         return seenOnce; // 한 번 나타나는 요소 반환
