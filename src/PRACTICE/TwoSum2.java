@@ -10,7 +10,8 @@ public class TwoSum2 {
         Map<Integer, Integer> numToIndex = new HashMap<>();
 
         // 정수 배열을 순회하면서 각 숫자의 인덱스를 저장
-        for (int i = 0; i < nums.length; i++) {
+        int i = 0;
+        while (i < nums.length) {
             int complement = target - nums[i];
             // complement와 매칭되는 숫자가 이미 저장된 경우, 두 수의 조합을 찾음
             if (numToIndex.containsKey(complement)) {
@@ -18,9 +19,8 @@ public class TwoSum2 {
             }
             // 현재 숫자와 인덱스를 맵에 저장
             numToIndex.put(nums[i], i);
+            i++;
         }
-
-        // 조합을 찾지 못한 경우 null 반환
         return null;
     }
 
