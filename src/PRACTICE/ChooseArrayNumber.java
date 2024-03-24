@@ -15,6 +15,6 @@ public class ChooseArrayNumber {
         int k = 3;
         int[] arr = {3, 2, 5, 1, 7};
 
-
+        System.out.println("답은 : " + chooseNum(arr, k));
     }
 }
