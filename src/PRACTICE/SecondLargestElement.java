@@ -2,6 +2,7 @@ package PRACTICE;
 
 import java.util.Arrays;
 
+// 정렬되지 않은 정수 배열이 주어지면, 그 배열에서 두 번째로 큰 요소를 찾기
 public class SecondLargestElement {
     public static int findSecondLargest(int[] nums) {
         if (nums.length < 2) {
