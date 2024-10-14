@@ -11,9 +11,9 @@ public class Code01 {
         int input = keyboard.nextInt();
 
         if (input == number) {
-            System.out.println("Match!");
+            System.out.println("Match! ");
         } else {
-            System.out.println("not!");
+            System.out.println("not! ");
         }
     }
 
