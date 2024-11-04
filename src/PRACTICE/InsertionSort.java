@@ -19,6 +19,7 @@ public class InsertionSort {
         int[] nums = {5, 2, 9, 3, 7, 1, 8, 4, 6};
         insertionSort(nums);
         System.out.println(Arrays.toString(nums));
+        System.out.println("test");
     }
 }
 
